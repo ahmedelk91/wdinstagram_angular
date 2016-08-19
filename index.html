@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-ng-app="wdinstagram">
   <head>
     <title>Angular</title>
     <link rel="stylesheet" href="style.css" />
@@ -9,7 +9,11 @@
     <base href="/" />
 
     <script src="js/app.js"></script>
+    <script src="js/pictures/pictures.js"></script>
+    <script src="js/pictures/index.controller.js"></script>
   </head>
   <body>
+    <h1><a data-ui-sref="pictureIndex">WDInstagram</a></h1>
+    <main data-ui-view></main>
   </body>
 </html>
